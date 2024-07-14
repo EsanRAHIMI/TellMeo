@@ -1,24 +1,24 @@
 # TellMeo
 
-TellMeo is an intelligent task planner and management tool with a voice chatbot interface. The platform integrates with Google Calendar to fetch and display events, allows users to add tasks, and provides real-time reminders. Additionally, it features an AI chat interface powered by OpenAI to assist users with their queries.
+**TellMeo** is an intelligent task planner and management tool with a voice chatbot interface. The platform integrates with Google Calendar to fetch and display events, allows users to add tasks, and provides real-time reminders. Additionally, it features an AI chat interface powered by OpenAI to assist users with their queries.
 
 ## Features
 
-- User authentication and authorization
-- Task management (CRUD operations for tasks)
-- Google Calendar integration to fetch and display events
-- Real-time reminders for tasks
-- AI chatbot interface for user assistance
-- Responsive and user-friendly UI
+- **User Authentication and Authorization**: Secure login and registration system.
+- **Task Management**: Create, Read, Update, and Delete (CRUD) operations for tasks.
+- **Google Calendar Integration**: Fetch and display calendar events.
+- **Real-Time Reminders**: Get notified about your tasks in real-time.
+- **AI Chatbot Interface**: Powered by OpenAI to assist users with their queries.
+- **Responsive and User-Friendly UI**: Accessible on various devices and screen sizes.
 
 ## Technologies and Tools
 
-- **Frontend:** React
-- **Backend:** Node.js
-- **Database:** MongoDB
-- **AI:** OpenAI API
-- **Calendar Integration:** Google Calendar API
-- **Authentication:** JWT (JSON Web Token)
+- **Frontend**: React
+- **Backend**: Node.js
+- **Database**: MongoDB
+- **AI**: OpenAI API
+- **Calendar Integration**: Google Calendar API
+- **Authentication**: JWT (JSON Web Token)
 
 ## Directory Structure
 
@@ -59,7 +59,8 @@ TellMeo is an intelligent task planner and management tool with a voice chatbot 
 │   ├── interactions.js
 ├── /middleware
 │   └── auth.js
-\```
+```
+
 
 ## Getting Started
 
@@ -129,6 +130,8 @@ TellMeo is an intelligent task planner and management tool with a voice chatbot 
 
 ## Contributing
 
+We welcome contributions to enhance TellMeo! Follow these steps to contribute:
+
 1. Fork the repository.
 2. Create your feature branch (`git checkout -b feature/your-feature`).
 3. Commit your changes (`git commit -m 'Add some feature'`).
@@ -141,6 +144,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Esan - EhsanRahimi@live.com
+**Esan** - EhsanRahimi@live.com
 
 Project Link: [https://github.com/EsanRAHIMI/TellMeo](https://github.com/EsanRAHIMI/TellMeo)

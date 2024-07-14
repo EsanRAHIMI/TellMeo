@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Planner</title>
+  <script>
+    async function addTask() {
+      const taskName = document.getElementById('taskName').value;
+      const taskTime = document.getElementById('taskTime').value;
+
+      const response = await fetch('/addTask', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name: taskName, time: taskTime })
+      });
+
+      const result = await response.json();
+      console.log(result);
+      loadTasks();
+    }
+
+    async function loadTasks() {
+      const response = await fetch('/tasks');
+      const tasks = await response.json();
+
+      const taskList = document.getElementById('taskList');
+      taskList.innerHTML = '';
+
+      tasks.forEach(task => {
+        const li = document.createElement('li');
+        li.textContent = `${task.name} - ${new Date(task.time).toLocaleString()}`;
+        taskList.appendChild(li);
+      });
+    }
+
+    async function loadEvents() {
+      const response = await fetch('/events');
+      const events = await response.json();
+
+      const eventList = document.getElementById('eventList');
+      eventList.innerHTML = '';
+
+      events.forEach(event => {
+        const li = document.createElement('li');
+        li.textContent = `${event.summary} - ${new Date(event.start.dateTime).toLocaleString()}`;
+        eventList.appendChild(li);
+      });
+    }
+
+    window.onload = () => {
+      loadTasks();
+      loadEvents();
+    };
+  </script>
+</head>
+<body>
+  <h1>Task Planner</h1>
+  <input type="text" id="taskName" placeholder="Task Name">
+  <input type="datetime-local" id="taskTime">
+  <button onclick="addTask()">Add Task</button>
+  <h2>Tasks</h2>
+  <ul id="taskList"></ul>
+  <h2>Events</h2>
+  <ul id="eventList"></ul>
+</body>
+</html>

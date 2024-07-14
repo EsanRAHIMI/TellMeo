@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React
+build/
+dist/
+.DS_Store
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache

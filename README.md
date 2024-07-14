@@ -22,7 +22,7 @@ TellMeo is an intelligent task planner and management tool with a voice chatbot 
 
 ## Directory Structure
 
-\```
+```
 /jarvis
 ├── .env
 ├── .gitignore

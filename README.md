@@ -22,43 +22,44 @@ TellMeo is an intelligent task planner and management tool with a voice chatbot 
 
 ## Directory Structure
 
+\```
 /jarvis
 ├── .env
 ├── .gitignore
 ├── /jarvis-ui (React frontend)
-│ ├── /public
-│ │ └── index.html
-│ ├── /src
-│ │ ├── /components
-│ │ │ ├── TaskList.js
-│ │ │ ├── AddTask.js
-│ │ │ ├── CustomCard.js
-│ │ │ ├── Header.js
-│ │ │ ├── Chat.js
-│ │ ├── /pages
-│ │ │ ├── Home.js
-│ │ │ ├── Calendar.js
-│ │ │ ├── Chat.js
-│ │ │ ├── Login.js
-│ │ │ ├── Register.js
-│ │ ├── /context
-│ │ │ ├── AuthContext.js
-│ │ ├── App.js
-│ │ ├── api.js
-│ │ ├── index.js
+│   ├── /public
+│   │   └── index.html
+│   ├── /src
+│   │   ├── /components
+│   │   │   ├── TaskList.js
+│   │   │   ├── AddTask.js
+│   │   │   ├── CustomCard.js
+│   │   │   ├── Header.js
+│   │   │   ├── Chat.js
+│   │   ├── /pages
+│   │   │   ├── Home.js
+│   │   │   ├── Calendar.js
+│   │   │   ├── Chat.js
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   ├── /context
+│   │   │   ├── AuthContext.js
+│   │   ├── App.js
+│   │   ├── api.js
+│   │   ├── index.js
 ├── server.js (Node.js server)
 ├── package.json
 ├── /models
-│ ├── User.js
-│ ├── Chat.js
+│   ├── User.js
+│   ├── Chat.js
 ├── /routes
-│ ├── auth.js
-│ ├── tasks.js
-│ ├── events.js
-│ ├── interactions.js
+│   ├── auth.js
+│   ├── tasks.js
+│   ├── events.js
+│   ├── interactions.js
 ├── /middleware
-│ └── auth.js
-
+│   └── auth.js
+\```
 
 ## Getting Started
 

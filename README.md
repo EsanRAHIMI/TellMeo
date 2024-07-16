@@ -148,4 +148,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Project Link: [https://github.com/EsanRAHIMI/TellMeo](https://github.com/EsanRAHIMI/TellMeo)
 
-![Project Views](https://shields.io/github/search/EsanRAHIMI/TellMeo?label=Project%20Views&color=blueviolet&style=flat-square)
+![Project Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/EsanRAHIMI/TellMeo&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Project+Views&edge_flat=false)

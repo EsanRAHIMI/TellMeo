@@ -20,7 +20,7 @@
 - **Calendar Integration**: Google Calendar API
 - **Authentication**: JWT (JSON Web Token)
 
-## Directory Structure
+## Directory Structure 
 
 ```
 /jarvis

@@ -20,7 +20,7 @@
 - **Calendar Integration**: Google Calendar API
 - **Authentication**: JWT (JSON Web Token)
 
-## Directory Structure 
+## Directory Structure
 
 ```
 /jarvis
@@ -77,7 +77,7 @@
 
     ```bash
     git clone https://github.com/EsanRAHIMI/TellMeo.git
-    cd TellMeo
+    cd TellMeo 
     ```
 
 2. **Install dependencies for the backend:**

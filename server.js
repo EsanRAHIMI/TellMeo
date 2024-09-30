@@ -8,7 +8,7 @@ const OpenAI = require('openai');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const authRoutes = require('./routes/auth');
-const interactionRoutes = require('./routes/interactions'); // Ensure this is added
+const interactionRoutes = require('./routes/interactions'); //Ensure this is added
 const { protect } = require('./middleware/auth');
 
 dotenv.config();
